@@ -8,5 +8,6 @@ def play(player,block):
         return play_status # new game status
     else:
         print("Now allowed!") # block is full
+        return play_status  # new game status
 
 
